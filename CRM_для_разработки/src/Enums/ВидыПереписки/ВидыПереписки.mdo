@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73ca2e51-b788-47e5-ad9a-918570fafc04">
+  <producedTypes>
+    <refType typeId="386099b3-9814-408d-a470-4b9d6ec77442" valueTypeId="df0ecd46-6978-4b33-b97a-ce95ce565fd1"/>
+    <listType typeId="5ca351c9-2707-4e2b-8d10-9eeaabf13428" valueTypeId="4b991977-8be9-4ea6-be80-7eba57b62f7d"/>
+    <managerType typeId="cea7c45c-82a8-4292-a067-a87adc8af51d" valueTypeId="cccfc2ff-67a3-4069-8c4c-131ebcce4747"/>
+  </producedTypes>
+  <name>ВидыПереписки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды переписки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3cc1f37b-a3da-4395-80ca-51e2afb37bba">
+    <name>Почта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Почта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="71d040ec-0943-4ecf-b6d6-8d7e29ce5933">
+    <name>ЛК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЛК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2c7e4bd-be7c-463a-a671-c295349bccd6">
+    <name>Telegram</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1197ac2d-683a-41c2-858e-561e639334ab">
+    <name>WhatsApp</name>
+    <synonym>
+      <key>ru</key>
+      <value>Whats app</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24bde5fc-865b-4724-98c2-20caa3f1b0b3">
+    <name>Zoom</name>
+    <synonym>
+      <key>ru</key>
+      <value>Zoom (и подобные сервисы)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9dce04e-0e9d-4004-a7de-7589b45ff924">
+    <name>Коннект</name>
+    <synonym>
+      <key>ru</key>
+      <value>1С-Коннект</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

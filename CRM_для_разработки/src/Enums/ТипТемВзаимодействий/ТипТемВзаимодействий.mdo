@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab9336ac-744e-42e3-9e92-c4ef0affcb51">
+  <producedTypes>
+    <refType typeId="d74c1861-33fe-4320-82ee-fcff36bcbe1e" valueTypeId="4a343b95-93be-4d0e-8989-92972e2458e7"/>
+    <listType typeId="fd220253-9223-4f4b-ad74-0db5f15bcf30" valueTypeId="251d1509-9359-49ad-a285-ea77692ac0bf"/>
+    <managerType typeId="80a447f5-ac11-4daa-a8bc-967547b5ec54" valueTypeId="07768aac-2bce-4096-baae-0b403dd91422"/>
+  </producedTypes>
+  <name>ТипТемВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип тем взаимодействий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="493a2bf2-7139-47d8-b139-5a3b2ea319a5">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93eb21c3-5eac-410f-9490-65bc60f88a75">
+    <name>ДоговорИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор ИТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86ab3906-89bb-4a64-9c65-49eff802288b">
+    <name>Задолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10850102-df6a-4ac4-af72-b20cd1007299">
+    <name>Оригиналы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оригиналы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b29a4fb-7da7-4234-9dfe-ae0665a9e664">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

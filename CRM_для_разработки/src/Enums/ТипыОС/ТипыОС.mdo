@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34d78519-e196-46dc-983b-27b18957d1f9">
+  <producedTypes>
+    <refType typeId="26e2393e-3a75-4d2b-80e9-44727fcc6895" valueTypeId="c38ab3bb-b8c3-4103-a9b3-acb0af951abe"/>
+    <listType typeId="d8fdcd70-19c7-4c83-9f75-243c9304d234" valueTypeId="56ab5786-d1c8-44ab-b414-0f4fa3c54bb9"/>
+    <managerType typeId="12b4a174-2453-41cf-bd46-1e4265955d42" valueTypeId="69e3af82-882a-45d1-962b-d307abe9564c"/>
+  </producedTypes>
+  <name>ТипыОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ОС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa7fc3b0-2c3f-46e6-90b2-a4a061363ad6">
+    <name>Windows</name>
+    <synonym>
+      <key>ru</key>
+      <value>Windows</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="098cc31e-a394-4404-9a53-8a3f3c2f65e4">
+    <name>Linux</name>
+    <synonym>
+      <key>ru</key>
+      <value>Linux</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

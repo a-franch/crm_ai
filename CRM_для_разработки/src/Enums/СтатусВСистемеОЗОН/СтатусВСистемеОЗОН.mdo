@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="393abb83-0418-471f-90d6-179f82245ba6">
+  <producedTypes>
+    <refType typeId="1b6d936a-b3f0-44f9-a1d6-20e0471bc23d" valueTypeId="a8aaf6a5-8539-4090-ab5c-76a89cf55b6b"/>
+    <listType typeId="21c50d89-7635-4cda-9e80-8350a04e7975" valueTypeId="7e6dc8c6-1394-442c-840c-6164bc8da5c0"/>
+    <managerType typeId="52cf43ba-71a3-40db-8187-558c24415c81" valueTypeId="d6bd7a94-10b3-43fe-b526-ae9ea5d03ab0"/>
+  </producedTypes>
+  <name>СтатусВСистемеОЗОН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус в системе ОЗОН</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6a944248-a2cd-4e21-88a3-c407d3ae9735">
+    <name>НеОбработана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не обработана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6bd0bf59-48f0-410c-beb0-b9f0ba4045a2">
+    <name>ВОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8d567d2-1de6-464d-aafe-44744ed38412">
+    <name>Принята</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принята</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

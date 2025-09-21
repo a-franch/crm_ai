@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc59acc3-f1f7-4e3f-96da-e580f2c5a88f">
+  <producedTypes>
+    <objectType typeId="89508e48-ae7e-4c24-9900-3f4f7c3d0255" valueTypeId="f7e74380-3595-420c-952c-3da37caa89c8"/>
+    <refType typeId="190a7469-3325-4d33-b5ec-28a63ac83b06" valueTypeId="ecddcc80-b6f1-41da-a03d-229e0b5e6a61"/>
+    <selectionType typeId="163ab387-3a13-4148-8a08-23aa475bc2fb" valueTypeId="d3350ba3-9559-4acb-90db-99a5e947205c"/>
+    <listType typeId="d99d5260-a261-4a67-b0e2-7fd2962e286d" valueTypeId="f043ef06-0d3d-4eda-8f18-d8a25b785c52"/>
+    <managerType typeId="660411fc-869a-4594-ab95-c5ea3553eedd" valueTypeId="e5c0fd6c-9076-4432-89eb-c8d9ab52f7e2"/>
+  </producedTypes>
+  <name>Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номенклатура (вид работы)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Номенклатура.Attribute.Артикул</inputByString>
+  <inputByString>Catalog.Номенклатура.Attribute.КодДляПоиска</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа, в которую входит данная позиция номенклатуры.</value>
+    </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Номенклатура.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для быстрой визуальной идентификации номенклатуры в процессе работы с программой.</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Уникальный идентификатор номенклатуры.</value>
+    </toolTip>
+    <fillValue xsi:type="core:StringValue">
+      <value>         </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты</characteristicValues>
+    <objectField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
+    <typeField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
+    <valueField>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <characteristics>
+    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Позиция номенклатуры</value>
+  </objectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Номенклатура</value>
+  </extendedListPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Список позиций номенклатуры (товары, услуги). Для позиции номенклатуры могут быть заданы дополнительные свойства: характеристики, упаковка, аналоги, ценовые группы и т.д. </value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="548e6760-5a4d-46dd-bc51-e5577d4814eb">
+      <name>Администрирование_офис</name>
+      <description>Администрирование 1С в офисе заказчика</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000005</value>
+      </code>
+    </items>
+    <items id="af81e88e-955d-4e93-a9ec-bf9e19597df0">
+      <name>Администрирование_удаленка</name>
+      <description>Администрирование 1С удаленно</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000006</value>
+      </code>
+    </items>
+    <items id="729e06f6-a3e8-4125-8dbb-2dc407370717">
+      <name>Доработки_Отчеты</name>
+      <description>Доработки отчеты</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000002</value>
+      </code>
+    </items>
+    <items id="601769a9-557b-4fcb-96a6-eef0dbd2fbf9">
+      <name>Доработки_Переход</name>
+      <description>Доработки переход</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000003</value>
+      </code>
+    </items>
+    <items id="23868d5f-d232-49e2-84ea-6210202cf056">
+      <name>Доработки_Программирование</name>
+      <description>Доработки программирование</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000004</value>
+      </code>
+    </items>
+    <items id="2389432b-6665-4eb8-9dc7-a8fc4248cc3f">
+      <name>Доставка</name>
+      <description>Доставка</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000001</value>
+      </code>
+    </items>
+    <items id="f69ac875-c712-468a-8bd1-e15ed362891c">
+      <name>Консультации_офис</name>
+      <description>Консультационные услуги в офисе заказчика</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000007</value>
+      </code>
+    </items>
+    <items id="a843eaab-77e1-43c5-b5e5-611e926988e4">
+      <name>Консультации_удаленка</name>
+      <description>Консультационные услуги удаленно</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000008</value>
+      </code>
+    </items>
+    <items id="2d3b196a-33d5-450c-994f-e6912cab3835">
+      <name>Программирование_офис</name>
+      <description>Настройка конфигурации 1С в офисе заказчика</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000010</value>
+      </code>
+    </items>
+    <items id="9ff3bac3-94ce-45fe-b14e-60e1c1cb06ec">
+      <name>Программирование_удаленка</name>
+      <description>Настройка конфигурации 1С удаленно</description>
+      <code xsi:type="core:StringValue">
+        <value>00000000009</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Номенклатура.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.Номенклатура.Form.ФормаВыбора</defaultChoiceForm>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="722c3d13-753d-4b4f-82b9-d41340f96d79">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул </value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Артикул номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce5f9aac-8a68-4f2a-8f27-043abfdf0158">
+    <name>КодДляПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код для поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>11</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="344b6917-b413-4fae-aadd-d62836822de6">
+    <producedTypes>
+      <objectType typeId="63bd465d-bf0f-44a3-b88c-cc523ce3fe7c" valueTypeId="9eadd256-e4ef-4b10-9591-b762bdc8dab6"/>
+      <rowType typeId="a8909e99-4fce-48e6-affd-0a2e009e85e3" valueTypeId="ca908d83-3320-4e10-abaa-78c3f7ee590a"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные реквизиты</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор реквизитов, состав которого определяется компанией.</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3ebfaae7-710d-4b97-aff3-149de91a4f89">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Дополнительный реквизит</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c122409e-0e2f-4354-a036-4e8f6440b616">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Значение дополнительного реквизита</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Catalog.Номенклатура.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</field>
+      </choiceParameterLinks>
+      <quickChoice>DontUse</quickChoice>
+      <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5363533d-b1e1-4a07-9310-a2e3bab7ca05">
+      <name>ТекстоваяСтрока</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текстовая строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Полный текст строкового дополнительного реквизита</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="954ba425-08b2-48c9-9511-61885f12b19c">
+    <producedTypes>
+      <objectType typeId="9637b815-2b59-4783-bf49-7c2c554b3dab" valueTypeId="14dd385d-a17a-480f-bad5-fe61fc668519"/>
+      <rowType typeId="6e372c57-7474-43c4-aaf7-8c9cf03e7879" valueTypeId="c90c1e70-e638-483e-809f-29e022f75bb3"/>
+    </producedTypes>
+    <name>ДрагоценныеМатериалы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Драгоценные металлы и камни</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Содержание драгоценных металлов и камней в составе единицы номенклатуры</value>
+    </toolTip>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="76601429-140a-4d57-a8c1-1cee74ae74ef">
+      <name>ДрагоценныйМатериал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Драгоценный металл/камень</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Драгоценный металл или камень входящий в состав единицы номенклатуры</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="69a8926e-a3b2-4baa-bd9f-63df91084a57">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Количество драгоценного металла или камня в составе номенклатуры</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e3b92dc5-025f-4f57-a745-ff7221d788ba">
+      <name>Расположение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Классификация для 1-ДМ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0f8b3c71-a597-4c8a-915a-bccde83035e2">
+      <name>Комментарий</name>
+      <synonym>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="41c80aa8-4fc3-49dd-82ef-95812b6326fa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f2ba907-ea3e-44d9-b6c4-064929a2bdcd">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a7ec4d48-b007-42a5-acba-65783990e319">
+    <name>ПФ_MXL_КарточкаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка номенклатуры</value>
+    </synonym>
+  </templates>
+</mdclass:Catalog>

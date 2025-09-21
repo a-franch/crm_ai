@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25859320-49fe-4915-af5d-4621125cbdb4">
+  <producedTypes>
+    <refType typeId="1088066a-c8df-4248-9c63-503b980e46cc" valueTypeId="140142ae-57b7-44cf-80df-a3d445e704f7"/>
+    <listType typeId="dc0b40b1-28fa-4da2-9d88-979ee297908c" valueTypeId="07d2a1c9-96af-4a43-954e-d5e21b1ca683"/>
+    <managerType typeId="910b9527-7a31-4c0e-aa6c-d83dc8047487" valueTypeId="082b8a8b-817f-4564-bdcf-62b76ab6d61b"/>
+  </producedTypes>
+  <name>ТипыВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы взаимодействий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fea84f12-1022-4283-be3f-9a334a393f3a">
+    <name>Звонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Звонок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="635cdb58-46c7-448b-b61a-d4f71b7ba0cd">
+    <name>Встреча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встреча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="348c85d5-fe5c-440a-b3e6-9d20a36ef51d">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bcf37a2a-ce2e-4fe6-9d5f-c4c361cdcca9">
+    <name>НоваяЗадача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая задача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6971dcb3-916c-46aa-a21a-99f66f3893a7">
+  <producedTypes>
+    <refType typeId="d127c3e4-4f19-4a40-80b0-336726780174" valueTypeId="7a6c9205-fd6e-40ec-aa80-b4ef3d0349e4"/>
+    <listType typeId="82b92c30-36df-4031-9f52-0da70b89920f" valueTypeId="b904f16e-1004-4608-954b-6c193b6445ae"/>
+    <managerType typeId="e545ba07-e399-4984-a8f3-787673c6d0d6" valueTypeId="b37495dc-762f-451b-9ad0-dad3c49bc27b"/>
+  </producedTypes>
+  <name>ВидПараметраБонуса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид параметра бонуса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86604a9b-5918-4424-bd16-683f5b2c5928">
+    <name>ПроцентКвартальногоБонуса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент квартального бонуса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6ae2473-7970-4e90-91b2-86b9c88f3f0d">
+    <name>ГодоваяСтоимостьИТС_ПРОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая стоимость ИТС ПРОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba767882-f7d6-4b43-a2fb-0d2569ef63f8">
+    <name>ГодоваяСтоимостьИТС_ТЕХНО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая стоимость ИТС ТЕХНО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ed1bd311-f29e-4bdf-adac-817a90c86165">
+    <name>ВремяНаРегистрациюЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время на регистрацию задачи (ч)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0484590e-f14d-4850-9cf8-06d495b05305">
+    <name>ВремяНаПродлениеСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время на продление сервиса (ч)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fcfe77c3-a544-45ba-b9b8-40f51ba64ca2">
+    <name>ВремяНаПродлениеИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время на продление ИТС (ч)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

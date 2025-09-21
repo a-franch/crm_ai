@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c8a4a69-6474-4a31-b3a8-4cb7bedfb1ca">
+  <producedTypes>
+    <refType typeId="b41e4acc-a596-4fa1-ace4-67b076a4f0c7" valueTypeId="2fa3c206-9173-4d1f-92b3-4d2f8ee8fc84"/>
+    <listType typeId="73842839-66cf-4faf-9392-97e0e0fca020" valueTypeId="04e9cefd-ffb0-49f7-8cb8-f2231be51362"/>
+    <managerType typeId="261b2a6d-d0c7-4cc3-97ec-10540dba0ec9" valueTypeId="afde2a31-a836-4a83-95c9-9fe24ea96a0a"/>
+  </producedTypes>
+  <name>ВариантОценкиЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант оценки задачи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="336bcb74-8cf1-4f2a-a148-d526cf1f8a09">
+    <name>ПоФакту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительная оценка и согласование стоимости не требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1d92456f-78eb-4254-9cd7-5d4dac9b452b">
+    <name>Согласование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется оценка и согласование стоимости выполнения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

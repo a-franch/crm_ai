@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5d3471a2-409d-4689-a0dd-125c6d41aceb">
+  <producedTypes>
+    <refType typeId="02451ac7-e5c9-4df1-bbdd-d93a1cfd8aa3" valueTypeId="bb96ba55-d397-4665-82c0-0ccf3c37303c"/>
+    <listType typeId="2c7759f2-74ca-48a3-8106-4600e202dc22" valueTypeId="a65ebcd1-6a63-44a6-b42e-1d779a47d9fb"/>
+    <managerType typeId="d49a3a3e-48cb-4016-893c-89d6587ad0c0" valueTypeId="d30779dc-9a91-4f11-96c3-6fdfdb7a2e55"/>
+  </producedTypes>
+  <name>ВидыИТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ИТС</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5010ad63-b7e5-42d3-9513-7d30eb86628e">
+    <name>ПодпискаПРОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписка ПРОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4764e446-fedb-4e3b-ac8f-017e98e062ba">
+    <name>ПодпискаТЕХНО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписка ТЕХНО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ed96fe5-da20-40c2-ab9d-28c217d580f4">
+    <name>ФрешПРОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fresh.com ПРОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf47c734-fc90-4cae-adaf-ebb9403ff314">
+    <name>ФрешБазовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fresh.com Базовая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9aa1b43-b3c4-4f54-aa84-6385ffdb11a0">
+    <name>НеТребуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовые</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="053ca8bd-0c66-4fd0-817a-de6ae9f5c776">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда (Рарус, ГРМ и пр.)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="402a2dc3-4047-43af-ab8a-70b0b969e873">
+    <name>ОтказОтОформления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ от оформления ИТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5627bee9-857e-4a59-a145-f8a74fdf76f9">
+    <name>СтартЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0fe3b72-d9cf-49dd-b717-029f5c3059ec">
+    <name>ДругиеПРОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПРОФ у других партнеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59dd3a74-40c4-434b-9852-b584f369987c">
+    <name>ДругиеТЕХНО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЕХНО у дургих партнеров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e543dce-ee0c-4d67-97cc-f54b638c950d">
+    <name>ПродажаБезУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажа сервисов без платных услуг</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

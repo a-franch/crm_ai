@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77466586-0c92-4afa-ae19-6b335f848349">
+  <producedTypes>
+    <refType typeId="20f0bf10-07fc-49e0-8e1e-23cf94eadf94" valueTypeId="36a119a0-52fe-4cdf-9709-2684fc8ea1c7"/>
+    <listType typeId="0db9d84a-dbee-4a7c-801f-394499406e6f" valueTypeId="604da75d-5a96-4871-bb8c-4e494548ae3f"/>
+    <managerType typeId="02f49182-e0cc-4ace-8853-7a7ff2885862" valueTypeId="db2408a8-e02d-40a1-ad14-2a7588930112"/>
+  </producedTypes>
+  <name>СтатусыВыполненияРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы выполнения работ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="576cf5dc-f6a1-44ef-8dd3-a4662445542a">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c9c6c45-069a-4d39-aa9f-2b2ef611d753">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании (уточнение)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0d46cf56-ac61-4361-a98d-ecc068a9ee00">
+    <name>СоставлениеТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка ТЗ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f935503d-6499-49fa-851a-d48cbf76e924">
+    <name>СогласованиеТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласование ТЗ с заказчиком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27227ca2-3389-4dea-9fc9-ed8a5adeb033">
+    <name>Актуальна</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6416c24d-5731-48e7-a15c-ac1f76bd7d8c">
+    <name>Тестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58f33b88-0d65-49b6-8057-e984bcfa4dde">
+    <name>ОжидаетсяПриемка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидается приемка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6fa06e75-547f-4ef4-a6c3-0db7b44785e6">
+    <name>Сдана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5cf0828e-adeb-40c3-81c4-071c2602d4cf">
+    <name>Заморожена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заморожена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

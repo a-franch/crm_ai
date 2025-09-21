@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1be98fa0-5473-4797-badb-e88e25896393">
+  <producedTypes>
+    <refType typeId="51eb40d0-6bd4-4ad5-a405-204f0767c24e" valueTypeId="c97d6bae-8fca-4243-b426-6769fc739bff"/>
+    <listType typeId="d002547d-a73a-4d34-92ae-b6d2e0dcb060" valueTypeId="c50e0837-8509-48fe-a59c-bde5b5f0bdc0"/>
+    <managerType typeId="1375a2f6-c5c5-4ee1-aec3-cf38dc656435" valueTypeId="72f5d282-5417-4f0c-ad00-669b43cd0148"/>
+  </producedTypes>
+  <name>РеакцияКлиента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реакция клиента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="addd6b98-5019-4cfb-ba56-a2c9638d5c57">
+    <name>КрайнеПоложительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайне положительная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d8a85a2-caac-466d-a6a8-9e086bc3ebfb">
+    <name>Положительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Положительная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75793a00-e12f-4d29-aaf3-a7298390389a">
+    <name>Нейтральная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нейтральная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b4c1bfd3-5b74-4790-bcc3-5842273adf57">
+    <name>Отрицательная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отрицательная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f7695f3e-6279-4143-a495-c136b3d7f9bf">
+    <name>КрайнеНегативная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Крайне негативная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5731eaf-ae8b-45d2-8ff6-7a7a218aeba4">
+  <producedTypes>
+    <refType typeId="ddc2bb44-244b-4954-89ef-f4bbb88ed8b0" valueTypeId="9b815746-c82f-4f33-a452-001759836d27"/>
+    <listType typeId="f9b53c48-174b-4f0e-b11f-70c90ceb423b" valueTypeId="29b57673-c247-4931-9a4e-a231019f90d9"/>
+    <managerType typeId="3e8d509a-3c6d-4bfb-9525-8c544ec5fc14" valueTypeId="5dd857e5-5d9a-4f68-b6e4-7e36e3abddf9"/>
+  </producedTypes>
+  <name>ВидыПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды первичных документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="70ca1fc9-73eb-440d-9a61-edf72a09d91c">
+    <name>АктВыполненныхРабот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт выполненных работ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="26dcbb5f-db98-4d5f-8e1f-ddcbf18015ef">
+    <name>РеализацияТоваровУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация товаров услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c39b97e3-583a-47be-82e2-764785d6ffc7">
+    <name>ПоступлениеТоваровУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление товаров услуг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23bb850a-7006-4f41-bce2-45add0e4b0f6">
+    <name>СчетНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет на оплату</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="831dac52-28c7-4da0-9424-932f416bbd1f">
+    <name>РегистрационнаяАнкета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрационная анкета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c718a95-04be-45da-9bb0-5292fb80afd2">
+    <name>КупонИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купон ИТС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

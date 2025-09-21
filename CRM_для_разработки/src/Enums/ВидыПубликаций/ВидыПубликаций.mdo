@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3740f0fb-e129-4a9a-9b2f-df0f057dc0e9">
+  <producedTypes>
+    <refType typeId="98c013ff-4a3a-4898-a924-52fefb57493d" valueTypeId="44a04639-2c62-4850-9225-1bf83f1d2bb5"/>
+    <listType typeId="5044d638-0a06-4dfb-b786-220581d855c9" valueTypeId="46535211-0bf3-4eb7-abc8-f86f3627c757"/>
+    <managerType typeId="779d493f-0615-4854-9612-79459124387e" valueTypeId="11901094-b15e-4a09-9b20-fc8e3522d6fb"/>
+  </producedTypes>
+  <name>ВидыПубликаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды публикаций</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c87a4898-81d6-487f-9a7d-be2c9bbd5c04">
+    <name>ОтзывОВнедрении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отзыв о внедрении</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5525494a-7abe-4e18-8898-832b51b042a4">
+    <name>Facebook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Facebook</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

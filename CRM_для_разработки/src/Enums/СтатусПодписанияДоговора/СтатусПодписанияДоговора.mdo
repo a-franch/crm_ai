@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b3bc507-fcb5-4732-acdd-0c0c3fc60d98">
+  <producedTypes>
+    <refType typeId="8dba1466-4c86-45eb-bae6-f0595fb06387" valueTypeId="7bd8e0c0-8258-4b47-961a-a4a92fbbca76"/>
+    <listType typeId="85507dea-39b2-4ea5-8ddb-6966c0c65841" valueTypeId="723bdb10-64cd-4c2d-a9d7-7aed517a48e2"/>
+    <managerType typeId="cd2a5ffd-83dc-4ea5-ae51-9e6078b3db95" valueTypeId="d6631528-6800-4b3f-a433-649d1251e146"/>
+  </producedTypes>
+  <name>СтатусПодписанияДоговора</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус подписания договора</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="da759ed5-899a-4e1d-ba62-3a882f45225d">
+    <name>НеПодписан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подписан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8de90eeb-35a8-4fb1-99f7-4924a9fa2030">
+    <name>ВПроцессеСогласования</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе согласования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c0f52650-501b-45e0-a253-ea7a4a10a2c0">
+    <name>ПодписанПоЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан по ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69958378-7ae7-4edd-b7cd-2690eca6ac83">
+    <name>ПодписанБумажныйОригинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписан бумажный оригинал</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

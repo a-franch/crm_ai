@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8782f356-6b49-4162-b94b-b28b759e6d1c">
+  <producedTypes>
+    <refType typeId="1329c225-a56c-4b25-9860-adfe9d84469d" valueTypeId="2d35268b-8a06-435a-a786-d3023ef997dd"/>
+    <listType typeId="a4ee7d23-ccda-454f-95c4-afed69fdef57" valueTypeId="8939f837-326b-4906-adb9-784ca10f49eb"/>
+    <managerType typeId="92c8d645-0739-4c8f-959f-1e38fc818b71" valueTypeId="3fe77ddc-c621-4310-ae19-9a3742a65cf7"/>
+  </producedTypes>
+  <name>ЛичныйКабинетВидыАккаунтов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Личный кабинет виды аккаунтов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e2456f2e-ab28-4437-99ab-f1341232a2b3">
+    <name>НеПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="488db745-587b-496e-b678-3a2342784afd">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f0002d3-fe72-4ebf-9cd5-f316ac2474fe">
+    <name>МенеджерПроектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менеджер проектов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6186c537-f0e8-42b1-a1ee-8bc08160712c">
+    <name>ПолныйДоступ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полный доступ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

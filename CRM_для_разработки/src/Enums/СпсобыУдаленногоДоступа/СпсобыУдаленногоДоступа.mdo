@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d401df6-cb6e-46d4-8677-d7b0a8cc3e2e">
+  <producedTypes>
+    <refType typeId="15cb76aa-bdc5-41d2-bac4-ae7809346d5c" valueTypeId="3bf9f792-47e7-4d25-b3e8-271b47de57da"/>
+    <listType typeId="c0bd32dc-d8db-4bf2-8aa2-1b164638435e" valueTypeId="57895f20-410a-4fdb-9e2f-75c5fcb7e92b"/>
+    <managerType typeId="3a380eca-b988-48f4-836e-4ff3afdbefba" valueTypeId="46eb208a-c457-48e1-9773-d949ee6fc817"/>
+  </producedTypes>
+  <name>СпсобыУдаленногоДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спсобы удаленного доступа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c213b304-fd72-4ef8-82fb-3ee6f141b6e3">
+    <name>RDP</name>
+    <synonym>
+      <key>ru</key>
+      <value>RDP (напрямую)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e2c3328-0d4c-4036-b915-68afb4408bd2">
+    <name>VPNRDP</name>
+    <synonym>
+      <key>ru</key>
+      <value>VPN + RDP</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ee8ec62-535e-4b6a-8a5d-1578479c0534">
+    <name>AnyDesk</name>
+    <synonym>
+      <key>ru</key>
+      <value>Any desk</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5524bd4d-b431-4151-a784-27f4fae52b74">
+    <name>TeamViewer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Team viewer</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8639929-02e4-4c19-947b-37a660773f62">
+    <name>AmmyAdmin</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ammy admin</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8da736e8-85a1-4bfb-8115-d113d1946c1b">
+    <name>ВОфисеЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>В офисе заказчика</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

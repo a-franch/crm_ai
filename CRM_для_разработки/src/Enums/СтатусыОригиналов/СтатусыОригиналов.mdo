@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71389a67-3bbb-4bb8-8b04-c2248bc1676a">
+  <producedTypes>
+    <refType typeId="749ae7db-ffd7-499d-8e7b-189daeccc6e3" valueTypeId="ac263755-8858-4277-9c04-42067aa3144d"/>
+    <listType typeId="ed523e9f-40dd-4082-880e-bf54db1bf2cf" valueTypeId="3f87ef4a-6d40-4674-be08-56b501393f92"/>
+    <managerType typeId="010dd699-1f5c-4f7d-8c9e-b6f83558ace4" valueTypeId="c52cb328-2bd3-4f5e-a516-1fb76746766f"/>
+  </producedTypes>
+  <name>СтатусыОригиналов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оригиналов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="950945fb-8104-488a-b838-afa27e4eff25">
+    <name>Требуется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c567d9ae-5cfa-4eca-a9a9-44ecbc6ebe37">
+    <name>Распечатан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распечатан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2b6a716-8dd2-4933-b2d2-4f8512c17e95">
+    <name>ОтправленСИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен клиенту с ИТС =></value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d300558f-2418-40f3-914a-b0041644dc5d">
+    <name>ОтправленПочтойРоссии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен клиенту почтой россии =></value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e96d08cb-db28-4fc8-a463-e1972e0d7a72">
+    <name>ОтправленКлиентуКурьером</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен клиенту курьером =></value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8c2481f4-7695-4509-92a2-5709c0428905">
+    <name>ЭДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен по ЭДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="634f7f2a-461d-483b-9f11-4e67f00065be">
+    <name>ПолученКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6321d286-0e16-45de-b4d6-be900fe6c0ed">
+    <name>ОтправленКлиентомКурьером</name>
+    <synonym>
+      <key>ru</key>
+      <value>&lt;= Отправлен клиентом (курьер)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e946ddc9-0ef5-4ae3-9f7a-b37c582cb7fc">
+    <name>ОтправленКлиентомПочтой</name>
+    <synonym>
+      <key>ru</key>
+      <value>&lt;= Отправлен клиентом (почта россии)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="175358d2-150f-41d0-a60c-c0ac695503c2">
+    <name>Утерян</name>
+    <synonym>
+      <key>ru</key>
+      <value>Утерян</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9774d3a-6e30-41d9-bfe2-c06b9a598146">
+    <name>ТребуетсяКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется корректировка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e99c7f4e-4288-4b3c-8b13-70099736dadc">
+    <name>Переформирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переформирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d026de8-6ea5-4a17-8048-ffbe54519112">
+    <name>Получен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d032312c-5e89-46da-8278-59eb86e2db8d">
+    <name>Отсканирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсканирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24c86e7d-7d35-405f-8123-7c4d914cb16b">
+    <name>Активирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТС - Активирован</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

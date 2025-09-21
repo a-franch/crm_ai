@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4911477b-8b9b-43b1-8f36-3a1e225913b3">
+  <producedTypes>
+    <refType typeId="9a88e6ee-4abb-4b2e-bae9-d7cfb5678a82" valueTypeId="812e1ae2-e987-4961-a849-b4ef436d3ff2"/>
+    <listType typeId="eb8e6eed-b3bf-47a4-be81-fb82b8fa8142" valueTypeId="f36f9e03-9d11-45f7-9c94-968babee274f"/>
+    <managerType typeId="fca56c4d-d9d7-41d8-877f-625c16c0e707" valueTypeId="f92b692e-15ba-4614-80e8-ddb85abd1987"/>
+  </producedTypes>
+  <name>ВидОрганизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид организации</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b203e6f5-4faf-43b1-8bf2-db3f352d92fd">
+    <name>Коммерческая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коммерческая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="110d508b-3d50-47ea-97df-5caf9a501188">
+    <name>Государственная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e70bf0f4-438d-47f7-9b58-a3a6da420fcb">
+    <name>Бюджетная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бюджетная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6688cbd-2712-422b-90db-78d676d27e6d">
+    <name>Автономная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автономная</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

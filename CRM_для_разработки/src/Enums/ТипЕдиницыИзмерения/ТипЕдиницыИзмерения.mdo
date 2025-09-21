@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b6cad8-4f38-4d97-ab8b-38857bfbda81">
+  <producedTypes>
+    <refType typeId="af94f675-5a9d-418a-bec9-c0fc17f30614" valueTypeId="390190f0-7c1d-4953-ae1b-f18bedd0dee0"/>
+    <listType typeId="80633af9-9110-4558-9e42-9d8a94b5fef6" valueTypeId="1a72950e-f16f-4166-9359-77bd8976b9ac"/>
+    <managerType typeId="f8fc7f7a-76c2-4e48-b4f6-f9bed01fcf22" valueTypeId="79f4d1b3-69d0-4cdd-b0c2-51737ac1095a"/>
+  </producedTypes>
+  <name>ТипЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип единицы измерения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a78de2b2-7d13-457e-bc9a-f2a53b428190">
+    <name>Время</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b616361c-1e84-40d7-9b81-572edda228ff">
+    <name>Трафик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трафик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a186995-bf0a-40d5-b483-8f9fe7290637">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b1298c2c-4061-4742-a7f1-ce58cca72eed">
+    <name>Финансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Финансы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

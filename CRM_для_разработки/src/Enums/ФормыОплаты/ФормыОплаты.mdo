@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="812a3a32-9f18-4cf1-a151-75e3eef7b9c8">
+  <producedTypes>
+    <refType typeId="29be8865-0809-4dc6-b4de-d4416aa01607" valueTypeId="5126fad1-1555-461e-821d-c1335d3c1bc3"/>
+    <listType typeId="f6f8879f-9a45-4a6a-bc63-1569084b3a51" valueTypeId="6c8d64da-1070-4e7e-9ee0-8f277049a393"/>
+    <managerType typeId="e60bb62e-1419-4bcc-845d-a98dd509df39" valueTypeId="1884e3a3-04fe-4b9a-ac23-7a94e67bf8f6"/>
+  </producedTypes>
+  <name>ФормыОплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы оплаты</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="58863120-859c-44bb-bb5e-65dc9be6bde2">
+    <name>Наличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные (касса)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4e41c56-182c-4577-b668-dc35a8dc2290">
+    <name>Безналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безналичные (банк)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6f55af1-0fc3-478c-bb68-f04d31afa66d">
+    <name>ЛичныеНаличные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наличные (личные)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cf7e127-c5c6-4fd0-b873-1e9add9c9782">
+    <name>ЛичныеБезналичные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безналичные (карта)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

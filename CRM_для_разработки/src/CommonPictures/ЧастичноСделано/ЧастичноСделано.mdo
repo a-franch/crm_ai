@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1c0b5e1-6046-4ce2-9b2c-f88d4d122135">
+  <name>ЧастичноСделано</name>
+  <synonym>
+    <key>ru</key>
+    <value>Частично сделано</value>
+  </synonym>
+</mdclass:CommonPicture>

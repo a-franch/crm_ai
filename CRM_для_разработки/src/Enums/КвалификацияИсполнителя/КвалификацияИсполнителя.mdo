@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97184b9c-fa1b-4804-94b1-aaae9747fba2">
+  <producedTypes>
+    <refType typeId="419a4862-61c6-4311-afe8-83e9a9a9faca" valueTypeId="f8fcbd3e-fc75-4359-a226-1e30a589fbd4"/>
+    <listType typeId="04a8d419-a299-451b-90a2-7d37ae31eb09" valueTypeId="7adb071c-1a76-4c3e-b3e1-e4604749ca0c"/>
+    <managerType typeId="4703515c-6eb5-4853-9991-b35a8ad14685" valueTypeId="1bc8e070-e8c8-4434-a236-c28ea61f0c90"/>
+  </producedTypes>
+  <name>КвалификацияИсполнителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квалификация исполнителя</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ff5d1c0b-a588-4e8c-89e3-8d10a5ac3192">
+    <name>Низкая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Низкая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d00ed538-3805-4080-b639-35d9900eab66">
+    <name>Средняя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Средняя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="146c9efa-b283-40fd-b8f4-b738d7c5b90b">
+    <name>Высокая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высокая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc43dfbb-0b90-4b26-b0e5-772af4bb9992">
+    <name>Высшая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Высшая</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

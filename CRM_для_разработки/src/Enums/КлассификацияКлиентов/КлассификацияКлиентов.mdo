@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03b36574-2dbe-49ff-8a65-21bdbcad5b47">
+  <producedTypes>
+    <refType typeId="11d4bb77-f52e-4807-8feb-87e6d5a36905" valueTypeId="61074aa0-5e4d-4272-ae63-b8d51c353549"/>
+    <listType typeId="7e7eaaf2-a77e-493d-ac87-996e27fd4155" valueTypeId="798b8a4d-73da-465a-bfd1-9b46ae72f8ab"/>
+    <managerType typeId="7d429113-8eae-4b57-b71f-2b8f966922c6" valueTypeId="c5ab5018-a264-43f5-bb03-e102222eb3c5"/>
+  </producedTypes>
+  <name>КлассификацияКлиентов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация клиентов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cd5866a3-224a-46fb-b949-4116bcbce5b7">
+    <name>АА</name>
+    <synonym>
+      <key>ru</key>
+      <value>(А+) Идеальный крупный клиент, хорошо платит</value>
+    </synonym>
+    <comment>Идеальный крупный клиент, хорошо платит</comment>
+  </enumValues>
+  <enumValues uuid="f1dddd47-cf01-4d21-b577-995dfda9c341">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>(A) Крупный клиент, хорошо платят</value>
+    </synonym>
+    <comment>Крупный клиент, хорошо платят</comment>
+  </enumValues>
+  <enumValues uuid="51fde54c-1b36-453a-a2b2-1d89e176c4ed">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>(B) Крупный клиент, нужно согласование трудозатрат, если идет превышение 2-х часов</value>
+    </synonym>
+    <comment>Крупный клиент, нужно согласование трудозатрат, если идет превышение 2-х часов</comment>
+  </enumValues>
+  <enumValues uuid="ddfe9663-d94b-4c65-9d59-2652cc9f2b3f">
+    <name>C</name>
+    <synonym>
+      <key>ru</key>
+      <value>(C) Клиент крупный, но нужно согласование трудозатрат (любит спорить по трудозатратам, каждый раз висит долг)</value>
+    </synonym>
+    <comment>Клиент крупный, но нужно согласование трудозатрат (любит спорить по трудозатратам, каждый раз висит долг)</comment>
+  </enumValues>
+  <enumValues uuid="82266a64-7063-4ba7-878f-cb5ca0002765">
+    <name>X</name>
+    <synonym>
+      <key>ru</key>
+      <value>(X) Небольшой клиент, но хорошо платит</value>
+    </synonym>
+    <comment>Небольшой клиент, но хорошо платит</comment>
+  </enumValues>
+  <enumValues uuid="fc227589-e438-4177-a3a5-9e4dc62492bf">
+    <name>Y</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Y) Небольшой клиент, нужно согласование трудозатрат, если идет превышение 2-ух часов</value>
+    </synonym>
+    <comment>Небольшой клиент, нужно согласование трудозатрат, если идет превышение 2-ух часов</comment>
+  </enumValues>
+  <enumValues uuid="63d521cb-772e-4ee4-b21a-175b1c39ad9d">
+    <name>Z</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Z) Мелкий клиент, нужно согласование трудозатрат (любит спорить по трудозатратам, каждый раз висит долг)</value>
+    </synonym>
+    <comment>Мелкий клиент, нужно согласование трудозатрат (любит спорить по трудозатратам, каждый раз висит долг)</comment>
+  </enumValues>
+  <enumValues uuid="d57f516f-d74b-4e30-92b4-001f44a6af70">
+    <name>НеКлассифицирован</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не классифицирован</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e900594-de61-4488-b628-a544f6c9974c">
+    <name>ЗапретРегистрацииНовыхЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрет регистрации новых задач</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

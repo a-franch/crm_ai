@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="109b24ad-9671-4b93-b6ae-3a55fe55c74a">
+  <producedTypes>
+    <refType typeId="e0cf5845-4c47-4332-a18b-b1d73ccd54c4" valueTypeId="f4f521fe-9fe7-4a7a-a57a-8d2eda210e23"/>
+    <listType typeId="83a1a8c5-63b0-4ab0-9c82-568fba1bbc1f" valueTypeId="b28308ba-103b-4c05-8671-2eefd0c16a41"/>
+    <managerType typeId="22cb0542-6af6-4822-b4d0-1e05963baf44" valueTypeId="7361d07e-622a-42e3-bb57-791d500fbb8d"/>
+  </producedTypes>
+  <name>ВидРегламента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид регламента</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7ff97bf9-deb5-4020-90b8-0460d74e3aa0">
+    <name>БазовоеПравило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базовое правило</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04bb32cb-38ac-4e56-8eba-792777a0998c">
+    <name>Процесс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процесс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="137ccc41-f4f2-4d6a-b8ea-afa495fae4bd">
+    <name>Компетенция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компетенция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b92719f-3bdd-4635-9f7a-8572faf66215">
+  <producedTypes>
+    <refType typeId="da83fed6-6552-42c4-b09d-a523a07ff562" valueTypeId="d8781a13-4d83-48d7-903a-9f656613cc69"/>
+    <listType typeId="6325798d-0110-4e59-8eb9-288c0f7d53da" valueTypeId="fba4b463-aff2-46c9-9504-722588a3648f"/>
+    <managerType typeId="e8f67160-70fb-43c9-bbc4-5f47e2529566" valueTypeId="03324019-1946-4cd7-a323-291a2b53459d"/>
+  </producedTypes>
+  <name>ВидыОблачногоДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды облачного доступа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4f21705e-cf01-4a41-8e4f-4a8ab99cca46">
+    <name>Браузер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступ через браузер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08eb1ad3-1295-49ee-8ea5-f9c9ba3696da">
+    <name>ОпубликованноеПриложение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опубликованное приложение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b834c245-3331-4da6-9e1c-212d8df89ada">
+    <name>RDP</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаленный рабочий стол</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

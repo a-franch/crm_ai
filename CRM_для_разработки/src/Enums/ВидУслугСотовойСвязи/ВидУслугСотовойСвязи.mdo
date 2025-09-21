@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ee71b79-bc57-4d28-b360-6c00c7e1643d">
+  <producedTypes>
+    <refType typeId="f5c637d2-7d62-490d-91ea-358cc6163e3f" valueTypeId="e86dd31c-a18b-40c6-a5dd-87704c59461a"/>
+    <listType typeId="e7801b54-eeb1-482a-9b27-7011088d3e68" valueTypeId="eda618a9-3430-4f3c-a81d-36896e5750af"/>
+    <managerType typeId="88ac3664-268b-44ab-bae9-fda3f731a708" valueTypeId="11efa308-919d-4004-a616-a0f4e9686fc8"/>
+  </producedTypes>
+  <name>ВидУслугСотовойСвязи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вид услуг сотовой связи</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cf3bad86-25eb-4d5b-9632-30ff77662be8">
+    <name>АбонентскаяПлата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абонентская плата</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4625525-bc83-4885-87dc-d4d60acbaa97">
+    <name>Интернет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e7ecacd-3f8f-4e8b-a8e6-86a60abc03d8">
+    <name>ИсходящиеЗвонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие звонки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a95e9443-2b6f-4aab-84e5-d0ff1ab8b446">
+    <name>ИсходящиеЗвонкиРоуминг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исходящие звонки роуминг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="84789cc2-3bd2-4ec6-902b-ee1aa148569c">
+    <name>ВходящиеЗвонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие звонки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a350f736-1911-4930-bae7-c120ee605797">
+    <name>ВходящиеЗвонкиРоуминг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Входящие звонки роуминг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39e4f820-7e2a-4159-9ba9-184c7a640782">
+    <name>Сообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="13763bda-8280-4c9b-854e-3a1c427f63ee">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

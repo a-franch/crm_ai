@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f798f9c-0f8b-4580-98ca-2fbd6ffda5a7">
+  <producedTypes>
+    <refType typeId="f04e383a-e878-4482-8dc8-cc7085228ea4" valueTypeId="33201a11-c07d-4d2e-acc5-271ba849289d"/>
+    <listType typeId="11835a5b-5d7f-4d8f-bbd5-c9727aee0b62" valueTypeId="819ed1ee-b485-4629-8a75-9595c92775a7"/>
+    <managerType typeId="800bcd87-da2c-440d-a90a-41fd1b9500f3" valueTypeId="c3a3e0a8-cdee-401f-b8de-0dfd15cf82d8"/>
+  </producedTypes>
+  <name>РезультатыЗвонка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результаты звонка</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1985c361-6b81-4dc4-ad59-20bc51768a72">
+    <name>Успех</name>
+    <synonym>
+      <key>ru</key>
+      <value>Успех</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76c46e1f-3a01-458d-8537-d415ae638960">
+    <name>ЕстьНовыеЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть новые задачи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b38c313-7ac1-4f42-a23b-1fca98fc17b2">
+    <name>ИнтересуютСервисыИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интересуют сервисы ИТС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3523772-ae1e-40b2-8d4d-6f5e3ff19c6d">
+    <name>Недозвон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не дозвонились</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="542e7092-b299-484f-a777-9e256234df47">
+    <name>НеСостоялось</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взаимодействие не состоялось</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="37e33b98-e09e-4035-a285-48fb61468aae">
+    <name>НетЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все хорошо, новых задач нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8ab2b941-7ea8-4efa-9210-fb91b86397e5">
+    <name>НетДенег</name>
+    <synonym>
+      <key>ru</key>
+      <value>Есть задачи, но нет денег</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20b14720-3f07-41c0-b252-1868f53e35c8">
+    <name>НичегоНеИнтересует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ничего не интересует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07eebb82-273e-40e4-95fd-3ecfcbd303b4">
+    <name>НеПланируютПродолжатьСотрудничать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не планируют продолжать сотрудничать</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="743ce1fa-e05a-4f62-898c-4503a40b7116">
+    <name>ПретензииПоРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент жалуется на проблемы!</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ab08d86-270e-426d-90ed-a7307c7ab2da">
+    <name>Провал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76659a9d-7767-4b9f-81aa-043fa49d41bd">
+    <name>БезИзменений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиенту нужно подумать (без изменений)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

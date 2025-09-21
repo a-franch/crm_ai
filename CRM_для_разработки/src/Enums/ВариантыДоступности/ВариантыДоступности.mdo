@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0277bb39-18cc-4994-9ce2-cd1a128957bb">
+  <producedTypes>
+    <refType typeId="03545424-c5c6-43e0-8173-4b37d0192402" valueTypeId="b6bf5f0e-c33a-4075-a189-7470ffdf6bc2"/>
+    <listType typeId="04fd5066-a562-4651-89b3-47e2db9aea76" valueTypeId="41c65666-8c4c-4d27-b00e-b14ddaac2f88"/>
+    <managerType typeId="3d74e26a-5fdc-45dc-8a60-7a6f6ad0930e" valueTypeId="169d0002-2866-417a-8e46-7a4715a97f16"/>
+  </producedTypes>
+  <name>ВариантыДоступности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты доступности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7c7967d0-1d9f-4ddf-bee1-bfc53d45522f">
+    <name>ДоступнаПоСогласованию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна по согласованию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5be7f458-8d35-4ff3-be97-f3fe9d00cdd6">
+    <name>ДоступнаДляИсполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача доступна для всех исполнителей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fcc03a3-dac9-4171-9d66-39ba202ef9a2">
+    <name>Выполняется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполняется</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ebffebc-3676-467e-ae78-ba3ed18403d4">
+  <producedTypes>
+    <refType typeId="eb461757-74b9-432d-874d-a57edd8efc65" valueTypeId="6b424d33-d8ad-4821-a470-a3045a90a924"/>
+    <listType typeId="47a59563-7a3f-4690-ab7c-1cc6e5edc4cf" valueTypeId="844e06d4-8a66-4c7f-8566-1d9749f518bc"/>
+    <managerType typeId="e0c12024-60f1-4ed7-a0c2-d6141ca61f61" valueTypeId="ed33c1fb-b8c9-40ae-95af-648f821dadd1"/>
+  </producedTypes>
+  <name>СтатусТрудовойФункции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус трудовой функции</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="138e6625-775a-43b2-ad24-13757dc1cda5">
+    <name>Отказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4c5a3d1-72aa-4702-9297-91a809c850af">
+    <name>ОтсутствуетПонимание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсутствует понимание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d6a443e-a910-4455-96d3-c9942237fd08">
+    <name>ВПроцессе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В процессе изучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc085055-8b88-475c-a142-271bd6a42df1">
+    <name>НаАттестации</name>
+    <synonym>
+      <key>ru</key>
+      <value>На аттестации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44d1d595-30eb-44d0-8d60-60850814872c">
+    <name>Подтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтвержден</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
