@@ -600,6 +600,7 @@
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ИнтерфейсРазблокирован</sessionParameters>
   <commonTemplates>CommonTemplate.ДорожнаяКарта</commonTemplates>
+  <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -646,6 +647,7 @@
   <enums>Enum.СтатусТрудовойФункции</enums>
   <enums>Enum.ВидРегламента</enums>
   <enums>Enum.ВидыПереписки</enums>
+  <dataProcessors>DataProcessor.ВопросИИ</dataProcessors>
   <informationRegisters>InformationRegister.АдресацияЗадач</informationRegisters>
   <businessProcesses>BusinessProcess.Продажа</businessProcesses>
   <tasks>Task.Задача</tasks>
