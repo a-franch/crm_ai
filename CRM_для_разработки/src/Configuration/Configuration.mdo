@@ -601,6 +601,9 @@
   <sessionParameters>SessionParameter.ИнтерфейсРазблокирован</sessionParameters>
   <commonTemplates>CommonTemplate.ДорожнаяКарта</commonTemplates>
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
+  <commonModules>CommonModule.ИнтеграцияИТС</commonModules>
+  <constants>Constant.ЛогинИТС_API</constants>
+  <constants>Constant.ПарольИТС_API</constants>
   <catalogs>Catalog.Партнеры</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
@@ -648,6 +651,7 @@
   <enums>Enum.ВидРегламента</enums>
   <enums>Enum.ВидыПереписки</enums>
   <dataProcessors>DataProcessor.ВопросИИ</dataProcessors>
+  <dataProcessors>DataProcessor.СписокИТС</dataProcessors>
   <informationRegisters>InformationRegister.АдресацияЗадач</informationRegisters>
   <businessProcesses>BusinessProcess.Продажа</businessProcesses>
   <tasks>Task.Задача</tasks>

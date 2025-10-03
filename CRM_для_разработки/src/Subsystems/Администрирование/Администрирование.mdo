@@ -10,4 +10,6 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.Setting</picture>
   </picture>
+  <content>Constant.ЛогинИТС_API</content>
+  <content>Constant.ПарольИТС_API</content>
 </mdclass:Subsystem>

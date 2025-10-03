@@ -11,4 +11,5 @@
     <picture>CommonPicture.ЭлектронноеПисьмо</picture>
   </picture>
   <content>Catalog.Контрагенты</content>
+  <content>DataProcessor.СписокИТС</content>
 </mdclass:Subsystem>
