@@ -652,6 +652,7 @@
   <enums>Enum.ВидыПереписки</enums>
   <dataProcessors>DataProcessor.ВопросИИ</dataProcessors>
   <dataProcessors>DataProcessor.СписокИТС</dataProcessors>
+  <informationRegisters>InformationRegister.А_ИТС</informationRegisters>
   <informationRegisters>InformationRegister.АдресацияЗадач</informationRegisters>
   <businessProcesses>BusinessProcess.Продажа</businessProcesses>
   <tasks>Task.Задача</tasks>
