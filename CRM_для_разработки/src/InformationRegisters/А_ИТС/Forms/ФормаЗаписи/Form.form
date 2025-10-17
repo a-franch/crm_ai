@@ -1183,7 +1183,6 @@
 	СтатусыДокументов.Статус = ЗНАЧЕНИЕ(Перечисление.СтатусыОригиналов.ОтправленСИТС)
 	И НАЧАЛОПЕРИОДА(СтатусыДокументов.Период, МЕСЯЦ) = &amp;ПериодИТС
 	И СтатусыДокументов.Документ.Контрагент = &amp;Контрагент</queryText>
-      <mainTable>InformationRegister.СтатусыДокументов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>

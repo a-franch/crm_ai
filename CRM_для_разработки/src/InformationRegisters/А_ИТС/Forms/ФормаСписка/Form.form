@@ -1148,25 +1148,6 @@
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
-          <for>
-            <value>true</value>
-            <role>Role.Администратор</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыОфис</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыУдаленка</role>
-          </for>
-          <for>
-            <role>Role.СозданиеЗадач</role>
-          </for>
-          <for>
-            <role>Role.БазовыеПрава</role>
-          </for>
-          <for>
-            <role>Role.ВебКлиент</role>
-          </for>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
           <segments>Список.РассылкаБП</segments>
@@ -1214,25 +1195,6 @@
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
-          <for>
-            <value>true</value>
-            <role>Role.Администратор</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыОфис</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыУдаленка</role>
-          </for>
-          <for>
-            <role>Role.СозданиеЗадач</role>
-          </for>
-          <for>
-            <role>Role.БазовыеПрава</role>
-          </for>
-          <for>
-            <role>Role.ВебКлиент</role>
-          </for>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
           <segments>Список.РассылкаУТ</segments>
@@ -1280,25 +1242,6 @@
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
-          <for>
-            <value>true</value>
-            <role>Role.Администратор</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыОфис</role>
-          </for>
-          <for>
-            <role>Role.ФорматРаботыУдаленка</role>
-          </for>
-          <for>
-            <role>Role.СозданиеЗадач</role>
-          </for>
-          <for>
-            <role>Role.БазовыеПрава</role>
-          </for>
-          <for>
-            <role>Role.ВебКлиент</role>
-          </for>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
           <segments>Список.РассылкаЗУП</segments>
