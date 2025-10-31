@@ -73,10 +73,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="bb211f1a-8c80-49f8-b776-930c5be47c42">
-    <name>Укомплектован</name>
+    <name>УдалитьУкомплектован</name>
     <synonym>
       <key>ru</key>
-      <value>Укомплектован</value>
+      <value>Удалить укомплектован</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -88,10 +88,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="340e6554-c1bb-4b99-9033-6d6cabc4e1c6">
-    <name>ПереданКурьеру</name>
+    <name>УдалитьПереданКурьеру</name>
     <synonym>
       <key>ru</key>
-      <value>Передан курьеру</value>
+      <value>Удалить передан курьеру</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -259,6 +259,41 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea8db0e6-d4b8-4d79-b605-3475ee420d1d">
+    <name>ВидПодпискиИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид подписки ИТС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыПодписокИТС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d712a48a-edc6-4493-8a48-5c95f33e38a4">
+    <name>ДатаРегистрацииПодписки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата регистрации подписки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
   <forms uuid="65c52e72-a4b9-4c2c-9d3b-6650f72411ac">

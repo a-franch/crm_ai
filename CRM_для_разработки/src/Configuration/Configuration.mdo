@@ -608,6 +608,7 @@
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.ВидыПодписокИТС</catalogs>
   <documents>Document.ГрафикОтпусков</documents>
   <documents>Document.ОценкаТЗ</documents>
   <enums>Enum.ВариантыВажностиЗадачи</enums>

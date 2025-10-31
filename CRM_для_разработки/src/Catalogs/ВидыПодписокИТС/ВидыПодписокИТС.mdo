@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a47e753-999d-474e-9298-a02f378f99b3">
+  <producedTypes>
+    <objectType typeId="af965c7f-a35e-4161-98ce-d72363cacbd6" valueTypeId="ffbfcdea-833c-4324-a49c-a1058b4f2cd5"/>
+    <refType typeId="d361ef16-9e30-46af-bb04-06ad313dad03" valueTypeId="ab56d10e-6879-4e01-8097-0f716bbb04ca"/>
+    <selectionType typeId="dfab0e47-db7f-432a-ac29-4f694a930cde" valueTypeId="57662433-b4eb-4ca5-aaa2-56df122000d1"/>
+    <listType typeId="d8d9df96-e009-45cd-ae9e-3b399d1744b3" valueTypeId="70fa17d9-3297-49e1-811a-76fc15ab98e4"/>
+    <managerType typeId="9121fe3a-40e7-4991-a808-bbe81ef2ec50" valueTypeId="35a23c45-d71a-4f95-a410-59e68cab792b"/>
+  </producedTypes>
+  <name>ВидыПодписокИТС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды подписок ИТС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыПодписокИТС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПодписокИТС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="25bd2bac-ab71-4b87-a0fe-9c62cef35c7d">
+    <name>ВидИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ИТС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыИТС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="09bdaffa-cd46-4cfd-971a-06cee9cc2d58">
+    <name>Облако</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облако</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="61f41b14-bcc4-4446-94a4-725ada9cf0dc">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис (привязать к спр. сервисов)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a83e4fcd-dc3a-4085-831d-a95ccbaac914">
+    <name>СокращенноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращенное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

@@ -13,4 +13,5 @@
   <content>Catalog.Контрагенты</content>
   <content>DataProcessor.СписокИТС</content>
   <content>InformationRegister.А_ИТС</content>
+  <content>Catalog.ВидыПодписокИТС</content>
 </mdclass:Subsystem>

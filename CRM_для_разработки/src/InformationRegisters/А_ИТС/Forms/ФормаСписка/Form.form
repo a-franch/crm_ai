@@ -1369,6 +1369,49 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>СоздаватьВидыИТСПриЗагрузке</name>
+    <id>142</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СоздаватьВидыИТСПриЗагрузке</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>СоздаватьВидыИТСПриЗагрузкеРасширеннаяПодсказка</name>
+      <id>144</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СоздаватьВидыИТСПриЗагрузкеКонтекстноеМеню</name>
+      <id>143</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -1446,8 +1489,6 @@
 	РегистрСведенийА_ИТС.РегНомер,
 	РегистрСведенийА_ИТС.ВидИТС,
 	РегистрСведенийА_ИТС.Контрагент КАК Партнер,
-	РегистрСведенийА_ИТС.Укомплектован,
-	РегистрСведенийА_ИТС.ПереданКурьеру,
 	РегистрСведенийА_ИТС.Доставлен,
 	РегистрСведенийА_ИТС.НачалоПодписки,
 	РегистрСведенийА_ИТС.ОкончаниеПодписки,
@@ -1616,6 +1657,23 @@
       <dateQualifiers>
         <dateFractions>Date</dateFractions>
       </dateQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СоздаватьВидыИТСПриЗагрузке</name>
+    <title>
+      <key>ru</key>
+      <value>Создавать виды ИТС при загрузке</value>
+    </title>
+    <id>10</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

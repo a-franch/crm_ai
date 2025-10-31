@@ -527,7 +527,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Запись.Укомплектован</segments>
+        <segments>Запись.УдалитьУкомплектован</segments>
       </dataPath>
       <extendedTooltip>
         <name>УкомплектованExtendedTooltip</name>
@@ -570,7 +570,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Запись.ПереданКурьеру</segments>
+        <segments>Запись.УдалитьПереданКурьеру</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПереданКурьеруExtendedTooltip</name>
